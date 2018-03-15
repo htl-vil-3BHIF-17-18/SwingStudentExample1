@@ -34,7 +34,7 @@ public class StudentList extends JPanel implements MouseListener {
 		this.listStudents = new JList<Student>();
 		this.scrollpane = new JScrollPane(this.listStudents); 
 		dml = new DefaultListModel<Student>(); 
-	//	GridBagConstraints c = new GridBagConstraints();
+	
 		this.setLayout(new BorderLayout());
 	
 		this.listStudents.setFont( this.getFont());
